@@ -16,9 +16,10 @@ public class EstudosArrays {
         String[] nomes = new String[10];
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite um numero: ");
 
+        System.out.println("Digite um numero: ");
         int quantidade = entrada.nextInt();
+
         boolean[] valores = new boolean[quantidade];
 
         // exemplo
