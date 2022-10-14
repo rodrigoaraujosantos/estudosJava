@@ -1,15 +1,17 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class OperadorMatematico {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Escolha uma das operações: (1-Adição 2-Subtração 3-Multiplicação 4-Divisão");
+        entrada.useLocale(Locale.US);
+        System.out.println("Escolha uma das operações:\n1-Adição\n2-Subtração\n3-Multiplicação\n4-Divisão");
         int escolha = entrada.nextInt();
 
-        System.out.println("Informe o primeiro número:");
+        System.out.println("Informe o primeiro valor:");
         double num1 = entrada.nextDouble();
 
-        System.out.println("Informe o segundo número:");
+        System.out.println("Informe o segundo valor:");
         double num2 = entrada.nextDouble();
 
         switch (escolha) {

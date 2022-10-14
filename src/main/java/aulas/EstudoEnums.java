@@ -1,3 +1,5 @@
+package aulas;
+
 public class EstudoEnums {
     public static void main(String[] args){
         enum DiaDaSemana {

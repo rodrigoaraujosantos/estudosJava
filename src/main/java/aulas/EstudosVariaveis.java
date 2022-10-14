@@ -1,4 +1,6 @@
-public class variaveis {
+package aulas;
+
+public class EstudosVariaveis {
     public static void main(String[] args){
         System.out.println("Hello, world");
 
