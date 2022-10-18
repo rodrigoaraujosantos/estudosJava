@@ -24,5 +24,11 @@ public class PessoaTeste {
         System.out.println(imcPessoa);
         pessoa4.comer("sushi");
         System.out.println(pessoa4.peso);
+
+        Pessoa manu = new Pessoa("Manu", "Silva", 25, 1.6, 65);
+        Pessoa maria = new Pessoa("Maria", "Helena", 29, 1.7, 67);
+
+        manu.cumprimentar(maria);
+        manu.cumprimentar(maria);
     }
 }
