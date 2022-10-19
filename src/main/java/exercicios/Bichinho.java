@@ -60,9 +60,9 @@ public class Bichinho{
 
     }
 
-    public void dormir(int horas){
-        this.isEstaDormindo() == false
-    }
+//    public void dormir(int horas){
+//        this.isEstaDormindo() == false;
+//    }
 
 
     public boolean isEstaDormindo() {
