@@ -28,6 +28,7 @@ class Gato implements Animal {
             System.out.println("So como peixe");
         }
     }
+
 }
 class Galinha implements Animal {
     @Override
